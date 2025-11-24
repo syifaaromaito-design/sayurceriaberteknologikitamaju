@@ -70,7 +70,7 @@
 	  	margin-top: 10px;
 	  }
 	  .logo{
-	  	width: 120px;
+	  	width: 400px;
 	  	border-radius: 10px;
 	  	margin-top: 0;
 	  }
@@ -78,7 +78,7 @@
 </head>
  </body>
      <header>
-     	<img src="kelompok2.JPEG" alt="Foto Kelompok" class="logo">
+     	<img src="kelompok2baru.JPEG" alt="Foto Kelompok" class="logo">
            <h1>Kokulikuler tema berteknologi Kelompok 2</h1>
            <p>Dengan teknologi,
            kita siap menjadi generasi unggul</p>
@@ -159,16 +159,7 @@
         	<h2>Informatika</h2>
         	<p>Informatika dalam pengembangan web berfokus pada penggunaan bahasa markup seperti HTML (HyperText Markup Language) untuk menyusun struktur dan konten halaman (seperti teks, gambar, dan tautan), yang kemudian diperindah dan diatur tata letaknya menggunakan CSS (Cascading Style Sheets) untuk aspek visual (warna, font, layout). Selain itu, pengembangan web modern juga melibatkan JavaScript untuk menambahkan interaktivitas dan perilaku dinamis, serta berbagai teknologi backend dan database untuk mengelola data dan logika aplikasi, membentuk dasar dari semua situs web dan aplikasi daring yang kita gunakan sehari-hari.</p>
         </section>
-        </section>
-<section>
-	<h2>kolom komentar & saran</h2>
-	<textarea id="commentInput" rows="4" style="width:100%; padding: 10px;border-radius: 8px; border: 1px solid #4a4ef2; placeholder="tulis komentar atau saran kamu..."></textarea>
-	<br><br>
-	<button onclick="addComment()" style="background: #4a4ef2; color: whitesmoke; padding: 10px 20px; border: none; border-radius: 8px; cursor:pointer;font-size: 16px;">
-		kirim komentar
-		</button>
-		<ul id="commentlist" style="margin-top: 20px; list-style-type: square;"></ul>
-</section>
+        <section>
 <script>
 	function addComment () {
 		const input = document.getElementById("commentInput");
@@ -186,6 +177,83 @@
         input.value = "";
     }
 </script> 
+<section>
+	<h2>Kolom komentar & saran</h2>
+</section>
+<form id="commentForm" action="PASTE_URL_FORMRESPOND_DI_SINI" method=
+
+"post" target="hidden_iframe" onsubmit="submitted=true;">
+
+<input type="text" name="entry.1234567890" id="commentInput"
+
+placeholder="Tulis komentar atau saran kamu..." required style=" width: 100%; padding: 10px; border-radius: 8px; border:1px solid 4a4ef2;">
+
+<br><br>
+
+<button type="submit" style="background: #E3106F; color: whitesmoke; padding: 10px 20px; border:none; border-radius:8px; cursor:pointer ;font-size:16px; ">
+Kirim Komentar
+</button>
+	</form>
+	<section class="rating-form">
+  <h2>Penilaian Website — Kelompok 2</h2>
+
+  <form id="ratingForm-1" action="https://docs.google.com/forms/d/e/1FAIpQLSfp_d85Q7OcT9_di2hhxN-pGxWGTWnoJNQ0jM0jgX5p3-aM7A/formResponse" method="post" target="_blank">
+    <!-- Nama (opsional) -->
+    <input type="text" name="entry.1787399764" placeholder="Nama Penilai (opsional)">
+    <br><br>
+
+    <!-- Penilai sebagai -->
+    <label><input type="radio" name="entry.1956114814" value="Guru"> Guru</label>
+    <label style="margin-left:8px;"><input type="radio" name="entry.1956114814" value="Murid"> Murid</label>
+    <br><br>
+
+    <!-- Hidden kelompok (otomatis) -->
+    <input type="hidden" name="entry.1103946297" value="Kelompok 1">
+
+    <!-- Warna & Tampilan -->
+    <p><strong>Warna & Tampilan</strong></p>
+    <div class="rating-group">
+      <input type="radio" id="warna1-1" name="entry.620585551" value="Sangat Bagus"><label for="warna1-1" class="rating-option sg">Sangat Bagus</label>
+      <input type="radio" id="warna2-1" name="entry.620585551" value="Bagus"><label for="warna2-1" class="rating-option bg">Bagus</label>
+      <input type="radio" id="warna3-1" name="entry.620585551" value="Cukup"><label for="warna3-1" class="rating-option ck">Cukup</label>
+      <input type="radio" id="warna4-1" name="entry.620585551" value="Kurang"><label for="warna4-1" class="rating-option kr">Kurang</label>
+    </div>
+
+    <!-- Kesesuaian Konten -->
+    <p><strong>Kesesuaian Konten</strong></p>
+    <div class="rating-group">
+      <input type="radio" id="kes1-1" name="entry.870979430" value="Sangat Bagus"><label for="kes1-1" class="rating-option sg">Sangat Bagus</label>
+      <input type="radio" id="kes2-1" name="entry.870979430" value="Bagus"><label for="kes2-1" class="rating-option bg">Bagus</label>
+      <input type="radio" id="kes3-1" name="entry.870979430" value="Cukup"><label for="kes3-1" class="rating-option ck">Cukup</label>
+      <input type="radio" id="kes4-1" name="entry.870979430" value="Kurang"><label for="kes4-1" class="rating-option kr">Kurang</label>
+    </div>
+
+    <!-- Kerapian Web -->
+    <p><strong>Kerapian Web</strong></p>
+    <div class="rating-group">
+      <input type="radio" id="ker1-1" name="entry.389649903" value="Sangat Bagus"><label for="ker1-1" class="rating-option sg">Sangat Bagus</label>
+      <input type="radio" id="ker2-1" name="entry.389649903" value="Bagus"><label for="ker2-1" class="rating-option bg">Bagus</label>
+      <input type="radio" id="ker3-1" name="entry.389649903" value="Cukup"><label for="ker3-1" class="rating-option ck">Cukup</label>
+      <input type="radio" id="ker4-1" name="entry.389649903" value="Kurang"><label for="ker4-1" class="rating-option kr">Kurang</label>
+    </div>
+
+    <!-- Kreativitas Design -->
+    <p><strong>Kreativitas Design</strong></p>
+    <div class="rating-group">
+      <input type="radio" id="kre1-1" name="entry.281839552" value="Sangat Bagus"><label for="kre1-1" class="rating-option sg">Sangat Bagus</label>
+      <input type="radio" id="kre2-1" name="entry.281839552" value="Bagus"><label for="kre2-1" class="rating-option bg">Bagus</label>
+      <input type="radio" id="kre3-1" name="entry.281839552" value="Cukup"><label for="kre3-1" class="rating-option ck">Cukup</label>
+      <input type="radio" id="kre4-1" name="entry.281839552" value="Kurang"><label for="kre4-1" class="rating-option kr">Kurang</label>
+    </div>
+
+    <br>
+    <button type="submit" class="submit-btn">Kirim Penilaian</button>
+  </form>
+
+  <p id="thanks-1" style="display:none;color:#0a7cff;font-weight:bold;margin-top:10px;">✔ Terima kasih! Penilaian masuk.</p>
+</section>
+
+<script> attachThanks('ratingForm-1','thanks-1'); </script>
 <footer>
 	<p>CopyRight 2025 |Website lintas mapel by pasukan myob</p>
 </footer>       
