@@ -169,7 +169,28 @@
 		</button>
 		<ul id="commentlist" style="margin-top: 20px; list-style-type: square;"></ul>
 </section>
+<script>
+	function addComment () {
+		const input = document.getElementById("commentInput");
+        const comment = input.value.trim()
+
+        if(comment === "") 
+        	alert("Komentar tidak boleh kosong!");
+        	return;
+        }
+        const li = document.createElement(
+        	"li");
+        li.textContent = comment;
+        document.getElementById("commentList").appendChild(li);
+
+        input.value = "";
+    }
+</script> 
+<footer>
+	<p>CopyRight 2025 |Website lintas mapel by pasukan myob</p>
+</footer>       
         
-        
+   </body>
+   </html>
         
         
